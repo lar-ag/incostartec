@@ -1,0 +1,19 @@
+name: incostartec
+version: '16.04-0.10'
+summary: PC gadget for generic 32-bit devices
+type: gadget
+description: |
+    This gadget enables generic 32-bit pc incostartec devices to work with Ubuntu Core
+architectures:
+  - i386
+grade: stable
+confinement: strict
+icon: icon.png
+
+parts:
+  grub:
+    source: .
+    plugin: make
+    build-packages:
+      - grub-pc-bin
+        

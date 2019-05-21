@@ -1,0 +1,11 @@
+{
+  "type": "model",
+  "authority-id": "03BFUTLRJcQ0sNa1pVmjQaS9j8p8AJ5i",
+  "brand-id": "03BFUTLRJcQ0sNa1pVmjQaS9j8p8AJ5i",
+  "series": "16",
+  "model": "pci32can",
+  "architecture": "i386",
+  "gadget": "pci32can",
+  "kernel": "pc-kernel",
+  "timestamp": "2019-05-20T11:55:16+00:00"
+}
